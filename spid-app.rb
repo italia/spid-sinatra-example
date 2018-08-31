@@ -31,8 +31,7 @@ get "/" do
   <<-EOT
     <a href='/spid/login?idp_name=idp'>Accedi con SPID</a>
     <a href='/spid/logout?idp_name=idp'>Esci da SPID</a>
-    <pre>
-      #{session["spid"].to_yaml}
-    </pre>
+    <h1>Spid Session</h1>
+    <pre>#{session["spid"].to_yaml}</pre>
   EOT
 end
