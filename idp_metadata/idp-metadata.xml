@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" entityID="http://idp.lvh.me:8088"><ns0:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><ns0:KeyDescriptor use="signing"><ns1:KeyInfo><ns1:X509Data><ns1:X509Certificate>MIIDYDCCAkigAwIBAgIJANs7PistFGNcMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV
+BAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
+aWRnaXRzIFB0eSBMdGQwHhcNMTgwODAxMTM0NDU3WhcNMTkwODAxMTM0NDU3WjBF
+MQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50
+ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAwrDumx10FDHzfrAHy5X6IL8W0Bh3NteDupqnbto8T6fGWavhBnYPFU08
+J7pdmwyCNxk3Uq5h80Oy/b+4FRPwg/p2xXkm0lj8UT29nr+I4M2dGDUoNrlH2Lzh
+Je27eRUV/jFrSqKvo8htnR181qWAHWaBPEj7gl5jNnkIvR0QkYxA0fIQqtJhlaXG
+UC2WY8KrvZfdFH97c6uabGAYV+sLvDl+qB6zvcGEmAyxbS6GitN+FNDcv0IQuKTa
+N4J7bSHiCld30w8/YIoDvmzzUCnANgVhlBwMllFYJRQO9yTvTE0+GWPB8k4H0L9O
+deueOn++qqZNf59mwb9eD4b13Vx6/QIDAQABo1MwUTAdBgNVHQ4EFgQU/lkoyxZ3
+/hXyFmhahxs6pDxYMjkwHwYDVR0jBBgwFoAU/lkoyxZ3/hXyFmhahxs6pDxYMjkw
+DwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjnIn03AxcWI+dPel
+jAwNQ8O1CW6d7o586e1V3++UFiREL3C0JrfBtjo+AT2K3mZ3b70YHAyBoXAsrOj9
+O3XYf8xfGKZRm93DX63GLlHgXeFtawr/73QZMvb0/o31coYBhdGQ0ou0hf3wYNbn
+IMmV2wIQtTUwddh5AJ380Ch008lvWJ8R6fYuNLJddfz0e4K53+TtGqZIfPIu7+m6
+bkhvw7s8l8WFjXpDpCsUKkCdPRSti4iJhSDZZpYVKMo4YoUhfH6EMyzdwznfrHTF
+osKFQwwHOPT+vXgFjW02eN7+a7v4fLn44+ueo6JHGHrh8yjqvAiWnrHQhlqc2nIG
+MF9FBg==
+</ns1:X509Certificate></ns1:X509Data></ns1:KeyInfo></ns0:KeyDescriptor><ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://idp.lvh.me:8088/slo" /><ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://idp.lvh.me:8088/slo" /><ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat><ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://idp.lvh.me:8088/sso" /><ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://idp.lvh.me:8088/sso" /></ns0:IDPSSODescriptor></ns0:EntityDescriptor>

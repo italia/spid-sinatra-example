@@ -8,4 +8,4 @@ gem "sinatra"
 
 gem "pry-byebug"
 
-gem "spid"
+gem "spid", github: "italia/spid-ruby", branch: "feature/rake"

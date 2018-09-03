@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/italia/spid-ruby
+  revision: d1cd30becd7b68d70213de5b193dc9a7268fbb0d
+  branch: feature/rake
+  specs:
+    spid (0.15.2)
+      activesupport (>= 3.0.0, < 5.3)
+      rack (>= 1, < 3)
+      rake (>= 10.0, < 13)
+      xmldsig (>= 0.6.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -26,15 +37,12 @@ GEM
     rack (2.0.5)
     rack-protection (2.0.3)
       rack
+    rake (12.3.1)
     sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
-    spid (0.15.1)
-      activesupport (>= 3.0.0, < 5.3)
-      rack (>= 1, < 3)
-      xmldsig (>= 0.6.6)
     thread_safe (0.3.6)
     tilt (2.0.8)
     tzinfo (1.2.5)
@@ -48,7 +56,7 @@ PLATFORMS
 DEPENDENCIES
   pry-byebug
   sinatra
-  spid
+  spid!
 
 BUNDLED WITH
    1.16.2
