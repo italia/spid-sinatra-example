@@ -23,7 +23,7 @@ Spid.configure do |config|
   ]
 end
 
-enable :sessions
+use Rack::Session::Cookie
 
 use Spid::Rack
 
