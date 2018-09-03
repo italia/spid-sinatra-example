@@ -4,8 +4,8 @@ Bundler.require
 
 Spid.configure do |config|
   config.hostname = "http://spid-sinatra.lvh.me:4567"
-  config.private_key = File.read("./sp.key")
-  config.certificate = File.read("./sp.crt")
+  config.private_key_path = File.expand_path("./sp.key")
+  config.certificate_path = File.expand_path("./sp.crt")
   config.attribute_services = [
     {
       name: "Service 1",
