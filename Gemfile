@@ -8,4 +8,4 @@ gem "sinatra"
 
 gem "pry-byebug"
 
-gem "spid"
+gem "spid", ">= 0.16.1"
