@@ -29,8 +29,8 @@ use Spid::Rack
 
 get "/" do
   <<-EOT
-  <a href='/spid/login?idp_name=idp'>Accedi con SPID</a>
-  <a href='/spid/logout?idp_name=idp'>Esci da SPID</a>
+  <a href=#{spid_login_path(idp_name: "http://idp.lvh.me:8088")}>Accedi con SPID</a>
+  <a href=#{spid_logout_path(idp_name: "http://idp.lvh.me:8088")}>Accedi con SPID</a>
   <h1>Spid Session</h1>
   <pre>#{session["spid"].to_yaml}</pre>
 EOT
