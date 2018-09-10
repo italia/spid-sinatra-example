@@ -3,7 +3,7 @@ require 'bundler'
 Bundler.require
 
 Spid.configure do |config|
-  config.hostname = "http://spid-sinatra.lvh.me:4567"
+  config.hostname = "http://sp.local:4567"
   config.private_key_pem = File.read File.expand_path("./sp.key")
   config.certificate_pem = File.read File.expand_path("./sp.crt")
   config.attribute_services = [
@@ -29,8 +29,8 @@ use Spid::Rack
 
 get "/" do
   <<-EOT
-  <a href=#{spid_login_path(idp_name: "http://idp.lvh.me:8088")}>Accedi con SPID</a>
-  <a href=#{spid_logout_path(idp_name: "http://idp.lvh.me:8088")}>Accedi con SPID</a>
+  <a href=#{spid_login_path(idp_name: "http://idp.local:8088")}>Accedi con SPID</a>
+  <a href=#{spid_logout_path(idp_name: "http://idp.local:8088")}>Accedi con SPID</a>
   <h1>Spid Session</h1>
   <pre>#{session["spid"].to_yaml}</pre>
 EOT
