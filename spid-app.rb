@@ -4,8 +4,8 @@ Bundler.require
 
 Spid.configure do |config|
   config.hostname = "http://sp.local:4567"
-  config.private_key_pem = File.read File.expand_path("./sp.key")
-  config.certificate_pem = File.read File.expand_path("./sp.crt")
+  config.private_key_pem = File.read File.expand_path("./spid-private-key.pem")
+  config.certificate_pem = File.read File.expand_path("./spid-certificate.pem")
   config.attribute_services = [
     {
       name: "Service 1",
